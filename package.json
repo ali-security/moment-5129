@@ -101,7 +101,7 @@
         "prettier-check": "prettier --check Gruntfile.js tasks src",
         "prettier-fmt": "prettier --write Gruntfile.js tasks src",
         "coverage": "nyc npm test && nyc report",
-        "coveralls": "nyc npm test && nyc report --reporter=text-lcov | coveralls"
+        "coveralls": "nyc npm test" # && nyc report --reporter=text-lcov | coveralls"
     },
     "spm": {
         "main": "moment.js",

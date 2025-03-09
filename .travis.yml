@@ -17,7 +17,7 @@ env:
 before_install: if [[ `npm -v` == 2* ]]; then npm i -g npm@3; fi
 
 install:
-  - npm install
+  - npm ci
   - npm install grunt-cli
  
 script: grunt build:travis

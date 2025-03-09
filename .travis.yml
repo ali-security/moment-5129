@@ -19,9 +19,7 @@ install:
   - npm install
   - npm install -g grunt-cli
  
-script:
-  - npx prettier --version  # Show Prettier version
-  - grunt build:travis
+script: grunt build:travis
 
 git:
   depth: 10

@@ -1,6 +1,6 @@
 language: node_js
 node_js:
-  - "node"
+  - "15" # "node" release at 2020-10-06T14:12:53+03:00
   - "12"
   - "10"
   - "8"
